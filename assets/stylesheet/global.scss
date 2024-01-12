@@ -1,0 +1,38 @@
+@font-face {
+    font-family: scaniabold;
+    src: url(../fonts/ScaniaSansCY-Bold.eot) format('eot'),
+    url(../fonts/ScaniaSansCY-Bold.ttf) format('ttf'),
+    url(../fonts/ScaniaSansCY-Bold.woff) format('woff'),
+    url(../fonts/ScaniaSansCY-Bold.woff2) format('woff2');
+}
+@font-face {
+    font-family: scaniareg;
+    src: url(../fonts/ScaniaSansCY-Regular.ttf) format('ttf'),
+    url(../fonts/ScaniaSansCY-Regular.woff) format('woff'),
+    url(../fonts/ScaniaSansCY-Regular.woff2) format('woff2');
+}
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        font-size: 100%;
+        width: 100%;
+        // overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style-type: none;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+section, header, aside, footer, figure, article{
+    display: flex;
+}
